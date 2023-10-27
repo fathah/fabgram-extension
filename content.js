@@ -45,6 +45,7 @@ document.body.appendChild(divEl);
     
       // Dispatch the "Enter" keypress event on the input element
       input.dispatchEvent(enterEvent);
+      
       let sendButton = document.querySelector('[data-testid="send-button"]');
       if (sendButton) {
         sendButton.click();
